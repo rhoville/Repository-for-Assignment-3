@@ -1,11 +1,14 @@
 class Ticket(object):
     count = 0
+    
+    #code for the ticket number, incremental every time one is created
     def TicketNumber(self):
         self.ticketnumber = tn
         tn=2000
         tn+=1
         pass
-
+    
+ # Main code for the ticket
     def Tickets():
         self.name = input("Please enter your name: ")
         self.StaffID = input ("Please enter your StaffID: ")
@@ -25,6 +28,8 @@ class Ticket(object):
             Ticket()
         else:
             Menu()
+   
+
 
         def __enter__(self):
             return self
@@ -34,6 +39,7 @@ class Ticket(object):
         def __str__(self):
             return str(self.Ticket) + ": " + str(self.__dict__)
 
+       #Writing the input file to a txt file
         with open("t.txt", "w") as f:
             f.write("Ticket number: ", tn, "\n")
             f.write("Thank you:", self.name)
