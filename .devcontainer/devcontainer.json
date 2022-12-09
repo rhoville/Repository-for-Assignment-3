@@ -1,0 +1,19 @@
+    def Ticket():
+        self.name = input("Please enter your name: ")
+        self.StaffID = input ("Please enter your StaffID: ")
+        self.EmailEmail = input ("Please enter your Email: ")
+        print('If you require a new password, type Password Change')
+        Ticket.count += 1
+        self.problem = input ("Please describe the problem: ")
+        if self.problem == "Password Change" or "password change" or "Password change":
+            password = self.StaffID[0:2]+self.name[0:3]
+            print ("Your new password is: ", password)
+        else:
+            default = "Response: Not Yet Provided"
+            print (default)
+
+        self.question = input("Do you have another problem to submit: Y/N   ")
+        if self.question == "Y" or "y" or "yes" or "Yes":
+            Ticket()
+        else:
+            Menu()
