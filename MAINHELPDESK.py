@@ -14,7 +14,6 @@ print("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
 while option!=0 :
         if option == 1:
             open(Tickets())
-        #this does not work, I managed to make it work once but after running it again, it does not work anymore
 
         if option == 2:
             print(displayTicket)
@@ -40,5 +39,6 @@ while option!=0 :
 print("Thank you for using our Help Desk!")
 
 
-
+#The option part does not work as it is unable to found commands in the imported file.
+#I managed to make it work once but after running it again, it does not work anymore
 
