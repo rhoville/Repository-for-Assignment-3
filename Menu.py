@@ -17,7 +17,8 @@ class Menu_list(object):
         print("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
 
 
-
+#Generating password using string method
+#Menu option for the Help Desk...
 
 
 
